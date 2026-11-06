@@ -9,11 +9,11 @@ class Program
 
         if (Regex.IsMatch(email, @"^[^@\s]+@[^@\s]+\.[^@\s]+$"))
         {
-            Console.WriteLine("valid");
+            Console.WriteLine("valid ");
         }
         else
         {
-            Console.WriteLine("invalid");
+            Console.WriteLine("invalid ");
         }
     }
 }
